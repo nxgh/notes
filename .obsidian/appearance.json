@@ -1,0 +1,13 @@
+{
+  "interfaceFontFamily": "Monaco",
+  "textFontFamily": "Monaco",
+  "monospaceFontFamily": "Monaco",
+  "cssTheme": "Minimal",
+  "translucency": false,
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "bg",
+    "Glassmorphsim",
+    "images"
+  ]
+}
