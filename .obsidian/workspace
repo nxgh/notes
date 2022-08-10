@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OS/环境变量.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c39b90facdf3381a",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/环境变量.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/环境变量.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/环境变量.md"
+                "file": "README.md"
               }
             }
           },
@@ -137,10 +136,10 @@
     "direction": "horizontal",
     "width": 248.83334350585938
   },
-  "active": "ab5baeeb1149323c",
+  "active": "d83eca8cb7d066ba",
   "lastOpenFiles": [
-    "未命名.md",
     "OS/环境变量.md",
+    "README.md",
     "css-less/filter.md",
     "react/1. JSX 与 React.createElement.md",
     "react/2. Fiber.md",
