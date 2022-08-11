@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端基建/代码规范工具.md",
-            "mode": "preview",
+            "file": "README.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端基建/代码规范工具.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端基建/代码规范工具.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端基建/代码规范工具.md"
+                "file": "README.md"
               }
             }
           },
@@ -138,8 +138,8 @@
   },
   "active": "d83eca8cb7d066ba",
   "lastOpenFiles": [
-    "前端基建/eslint.md",
     "前端基建/代码规范工具.md",
+    "前端基建/eslint.md",
     "前端基建/prettierrc.md",
     "前端基建/javascript 版本管理器与包管理器.md",
     "README.md",
