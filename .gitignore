@@ -1,1 +1,3 @@
 .obsidian/plugins/*
+.obsidian/themes/*.css
+!.obsidian/themes/Minalmal.css

@@ -13,6 +13,9 @@
   --h4-color-shadow: hsl(94, 36%, 64%);
   --h5-color-shadow: hsl(310, 29%, 62%);
 }
+/***************************************/
+/*           Background                */
+/***************************************/
 html::after {
   background-image: var(--background-image);
   content: '';
@@ -51,6 +54,30 @@ body:not(.minimal-status-off) .status-bar {
 }
 .workspace-leaf.mod-active .view-header-title-container:after {
   background-color: transparent;
+}
+/***************************************/
+/*           Header                */
+/***************************************/
+/***************************************/
+/*           Background                */
+/***************************************/
+.cm-em,
+em {
+  --cm-em-bg: linear-gradient(159deg, #8db3ae 0%, #a89494 100%);
+  color: #7aa2f7;
+  background-color: #7aa2f7;
+  background-image: var(--cm-em-bg) !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cm-strong,
+strong {
+  --cm-em-bg: linear-gradient(159deg, #8db3ae 0%, #a89494 100%);
+  color: #7aa2f7;
+  background-color: #7aa2f7;
+  background-image: var(--cm-em-bg) !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /* ------------------------- pre ------------------------- */
 .workspace-ribbon.side-dock-ribbon.mod-left,

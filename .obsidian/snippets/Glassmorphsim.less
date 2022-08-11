@@ -27,6 +27,11 @@
   --h5-color-shadow: @h5-color-shadow;
 }
 
+
+/***************************************/
+/*           Background                */
+/***************************************/
+
 html::after {
   background-image: var(--background-image);
   content: '';
@@ -72,6 +77,30 @@ body:not(.minimal-status-off) .status-bar {
   background-color: transparent;
 }
 
+/***************************************/
+/*           Header                */
+/***************************************/
+
+
+
+/***************************************/
+/*           Background                */
+/***************************************/
+
+.cm-em , em{
+  --cm-em-bg: linear-gradient(159deg, #8db3ae 0%, #a89494 100%);
+  color: #7aa2f7;
+  background-color: #7aa2f7;
+  background-image: var(--cm-em-bg) !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cm-strong, strong {
+  --cm-em-bg: linear-gradient(159deg, #8db3ae 0%, #a89494 100%);
+
+  .cm-em();
+}
 /* ------------------------- pre ------------------------- */
 .workspace-ribbon.side-dock-ribbon.mod-left,
 .HyperMD-codeblock,
@@ -151,3 +180,5 @@ table thead tr th ,
 body:not(.minimal-unstyled-tags) .frontmatter-container .tag, body:not(.minimal-unstyled-tags) a.tag{
   border: 1px  solid rgb(126, 72, 126);
 }
+
+
