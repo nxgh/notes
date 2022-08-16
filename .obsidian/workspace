@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "node/pnpm.md",
+            "file": "webpack/webpack 优化.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "node/pnpm.md",
+                "file": "webpack/webpack 优化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "node/pnpm.md",
+                "file": "webpack/webpack 优化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "node/pnpm.md"
+                "file": "webpack/webpack 优化.md"
               }
             }
           },
@@ -138,15 +138,15 @@
   },
   "active": "d83eca8cb7d066ba",
   "lastOpenFiles": [
-    "node/package.json.md",
-    "node/pnpm.md",
-    "OS/软连接与硬链接.md",
-    "前端基建/javascript 版本管理器与包管理器.md",
+    "tools/vim 指北.md",
+    "Git/git 基础操作.md",
+    "Git/commit 规范.md",
+    "Git/submodule.md",
     "前端基建/husky代码自动格式化工具.md",
-    "前端基建/eslint.md",
-    "前端基建/prettierrc.md",
-    "README.md",
+    "web-component/web-component.md",
     "前端基建/代码规范工具.md",
-    "OS/环境变量.md"
+    "node/pnpm.md",
+    "node/package.json.md",
+    "OS/软连接与硬链接.md"
   ]
 }

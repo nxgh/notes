@@ -1,6 +1,9 @@
 - husky 用途主要是统一管理项目中的 Git Hooks 脚本
 - husky 可以方便地添加 git hooks
 
+- `pre-commit`：通过钩子函数判断提交的代码是否符合规范
+- `commit-msg`：通过钩子函数判断commit信息是否符合规范
+
 ## git hooks
 
 通常为了保证项目的代码质量、以及更好地进行团队之间的协作，我们都会在提交代码时做一些额外的工作，包括：检查 commit message 的规范性、统一代码风格、进行单元测试等等。
@@ -60,6 +63,10 @@ git add .husky/pre-commit
 2.  husky uninstall：卸载，主要是恢复对 Git 的 core.hooksPath 的修改
 3.  husky set：新增 hook
 4.  husky add：给已有的 hook 追加命令
+
+### pre-commit
+
+### commit-msg
 
 
 绕过 hooks 
