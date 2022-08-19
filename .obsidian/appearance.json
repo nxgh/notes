@@ -9,5 +9,6 @@
     "bg",
     "Glassmorphsim",
     "images"
-  ]
+  ],
+  "baseFontSize": 15
 }

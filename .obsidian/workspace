@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d83eca8cb7d066ba",
+        "id": "77013ef57176b618",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "react/React 架构.md",
+            "file": "react/2. Fiber.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c39b90facdf3381a",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/React 架构.md",
+                "file": "react/2. Fiber.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/React 架构.md",
+                "file": "react/2. Fiber.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/React 架构.md"
+                "file": "react/2. Fiber.md"
               }
             }
           },
@@ -135,19 +134,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 305.5,
+    "collapsed": true
   },
-  "active": "d83eca8cb7d066ba",
+  "active": "77013ef57176b618",
   "lastOpenFiles": [
+    "前端基建/代码规范工具.md",
     "react/2. Fiber.md",
     "react/React 架构.md",
-    "前端基建/代码规范工具.md",
+    "react/笔记-build-your-own-react.md",
+    "react/1. JSX 与 React.createElement.md",
+    "Git/git 基础操作.md",
+    "Git/commit 规范.md",
     "react/3. Render and Commit.md",
     "css-less/css 变量、单位、颜色.md",
-    "css-less/Css 颜色-单位-变量.md",
-    "css-less/less.md",
-    "react/1. JSX 与 React.createElement.md",
-    "OS/软连接与硬链接.md",
-    "tools/正则表达式.md"
+    "css-less/Css 颜色-单位-变量.md"
   ]
 }
