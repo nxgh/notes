@@ -1,11 +1,16 @@
 [github 镜像站 https://hub.fastgit.org/](https://hub.fastgit.org/)
+
 ## git  config
+
 ### proxy 
+
 ```bash
 git config --global http.proxy 'socks5://127.0.0.1:1080'
 git config --global --unset http.proxy
 ```
+
 ### username & email 
+
 ```bash
 # 全局配置
 $ git config --global user.name "Your Name"
@@ -18,6 +23,7 @@ git config --global --list
 ssh-keygen -t rsa -C "youremail@example.com"
 ```
 ### 单个仓库配置
+
 ```bash
 # 在项目主目录下执行
 git config user.name "Your Name"
@@ -27,16 +33,21 @@ git config credential.helper store
 # 重新输入一次用户名和密码
 git pull # or ...
 ```
+
 ### 使用 ssh-key
-```rust
+
+```bash
 ssh-keygen -t rsa -C 'xxxxx@company.com'
 ```
+
 配置多个 SSH-Key
+
 ```bash
 $ ssh-keygen -t rsa -C 'xxxxx@company.com' -f ~/.ssh/gitee_id_rsa
 $ ssh-keygen -t rsa -C 'xxxxx@example.com' -f ~/.ssh/github_id_rsa
 ```
-```rust
+
+```bash
 # git服务器的域名，IdentityFile指定私钥的路径
 # gitee
 Host gitee.com    
@@ -54,12 +65,15 @@ IdentityFile ~/.ssh/github_id_rsa
 $ ssh -T git@gitee.com
 $ ssh -T git@github.com
 ```
+
 ### 使用 gum 配置用户信息
 [https://github.com/gauseen/gum](https://github.com/gauseen/gum)
 ## git commit 提交
+
 ```bash
 git commit -a --allow-empty-message -m ""
 ```
+
 ## git log  查看历史记录
 ```bash
 git log
@@ -226,7 +240,8 @@ git stash -a
 # 查看栈中的记录
 git stash list
 ```
-**重新应用缓存的 stash **
+**重新应用缓存的 stash**
+
 ```bash
 # 将缓存堆栈中的第一个 stash 删除，并将对应修改应用到当前的工作目录下。
 git stash pop
@@ -552,7 +567,9 @@ git config --global core.quotepath false
 ```
 
 ### git迁移仓库到另外一个仓库
-# 仅保留历史提交信息
+
+- 仅保留历史提交信息
+
 ```javascript
 git clone --bare yourrepository
 ```

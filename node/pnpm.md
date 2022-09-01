@@ -1,4 +1,5 @@
 ## pnpm 的三层寻址
+
 每个包的寻找都要经过三层结构：`node_modules/package-a` > 软链接 `node_modules/.pnpm/package-a@1.0.0/node_modules/package-a` > 硬链接 `~/.pnpm-store/v3/files/00/xxxxxx`
 
 - 所有 npm 包都安装在全局目录 `~/.pnpm-store/v3/files` 下，同一版本的包仅存储一份内容，甚至不同版本的包也仅存储 diff 内容。
@@ -12,6 +13,7 @@
 3. 第三层映射 `node_modules/.pnpm/package-a@1.0.0/node_modules/package-a` > 硬链接 `~/.pnpm-store/v3/files/00/xxxxxx` 已经脱离当前项目路径，指向一个全局统一管理路径了
 
 ## 幻影依赖
+
 幻影依赖是指，项目代码引用的某个包没有直接定义在 `package.json` 中，而是作为子依赖被某个包顺带安装了。
 代码里依赖幻影依赖的最大隐患是，对包的语义化控制不能穿透到其子包，也就是包 `a@patch` 的改动可能意味着其子依赖包 `b@major` 级别的 Break Change
 
