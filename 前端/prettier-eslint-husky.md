@@ -339,7 +339,45 @@ npm run prepare
 npx husky add .husky/pre-commit "npx lint-staged"
 git add .husky/pre-commit
 ```
- husky 一共支持以下命令：
+
+- 安装后自动启用hooks， 修改 `package.json`
+```json
+{
+  "scripts":{
+        "prepare":"husky install"
+  }
+}
+```
+
+- 添加hooks
+
+```bash
+npx husky add .husky/pre-commit "npm run pre-commit"
+```
+
+- 在package.json文件中添加pre-commit
+
+```json
+{
+    "script":{
+        "pre-commit":"npm run test && eslint"
+    }
+}
+```
+
+2、自定义.husky目录
+
+```bash
+npx husky install .config/husky
+```
+
+3、绕过钩子
+
+```bash
+git commit -m "test" --no-verify
+```
+
+husky 一共支持以下命令：
 
 1.  husky install：安装，主要是配置 Git 的 core.hooksPath
 2.  husky uninstall：卸载，主要是恢复对 Git 的 core.hooksPath 的修改
