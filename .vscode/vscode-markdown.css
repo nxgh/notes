@@ -1,4 +1,9 @@
 *,
 body {
   font-family: Monaco, "Ubuntu Mono derivative Powerline", 仿宋;
+  font-size: 16px;
+}
+.vscode-light pre {
+  background-color: #fdfdfd;
+  border: 1px solid #eee;
 }
