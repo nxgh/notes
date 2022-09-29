@@ -152,10 +152,10 @@ React 只会在浏览器绘制后运行 effects。这使得你的应用更流畅
 - React 清除{id: 10}的 effect。
 - React 运行{id: 20}的 effect。
 
-
 ## 参考
 
 - [useEffect 完整指南-Dan](https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/)
 - [将 React 作为 UI 运行时-Dan](https://overreacted.io/zh-hans/react-as-a-ui-runtime/)
 - [竞态条件-wiki](https://zh.wikipedia.org/wiki/%E7%AB%B6%E7%88%AD%E5%8D%B1%E5%AE%B3)
 - [race-conditions-fetching-data-react-with-useeffect](https://maxrozen.com/race-conditions-fetching-data-react-with-useeffect)
+- [reddit 问题 [what_is_the_recommended_way_to_load_data_for] Dan 的回答](https://www.reddit.com/r/reactjs/comments/vi6q6f/what_is_the_recommended_way_to_load_data_for/)
