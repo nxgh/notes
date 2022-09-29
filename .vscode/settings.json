@@ -11,6 +11,6 @@
       "Tencent",
       "wujie"
     ],
-    "markdown.preview.fontFamily": "Monaco, 仿宋",
+    "markdown.preview.fontFamily": "Ubuntu Mono derivative Powerline,Monaco, 仿宋",
     "markdown.styles": [".vscode\\vscode-markdown.css"]
 }

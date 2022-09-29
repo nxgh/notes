@@ -1,6 +1,6 @@
 *,
 body {
-  font-family: Monaco, "Ubuntu Mono derivative Powerline", 仿宋;
+  font-family: "Ubuntu Mono derivative Powerline",Monaco, 仿宋;
   font-size: 16px;
 }
 .vscode-light pre {
