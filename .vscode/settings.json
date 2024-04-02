@@ -1,16 +1,14 @@
 {
-    "workbench.colorTheme": "GitHub Light",
-    "editor.lineHeight": 1.6,
-    "editor.fontFamily": "Ubuntu Mono derivative Powerline,Monaco, 仿宋, 文泉驿等宽微米黑,Consolas, 'Courier New', monospace",
-    "editor.fontSize": 16,
-    "editor.fontWeight": 500,
-    "cSpell.words": [
-      "efox",
-      "Frontends",
-      "qiankun",
-      "Tencent",
-      "wujie"
-    ],
-    "markdown.preview.fontFamily": "Ubuntu Mono derivative Powerline,Monaco, 仿宋",
-    "markdown.styles": [".vscode\\vscode-markdown.css"]
+  "workbench.colorTheme": "GitHub Light",
+  "editor.lineHeight": 1.6,
+  // "editor.fontFamily": "Ubuntu Mono",
+  // "editor.fontFamily": "Monaco",
+  "editor.fontFamily": "Anonymous Pro",
+  // "markdown.preview.fontFamily": "Ubuntu Mono",
+  "markdown.preview.fontFamily": "Anonymous Pro",
+  "editor.fontSize": 16,
+  "editor.fontWeight": 500,
+  "markdown.styles": [
+    ".vscode\\vscode-markdown.css"
+  ]
 }
