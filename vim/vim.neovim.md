@@ -42,3 +42,47 @@ require("lazy").setup({
 ### 注意
 
 1. apt 安装的 neovim 版本过低，需要通过其他方式安装
+
+
+
+
+### nvim-surround
+
+
+```bash
+ys{motion}{char}        # add
+ds{char}                # delete
+cs{target}{replacement} # change
+```
+
+
+## NeoVim
+
+
+保留 vscode 快捷键
+
+|        | vim                  | vscode          |     |
+| ------ | -------------------- | --------------- | --- |
+| Ctrl+b | 向上滚动一屏         | 打开/收起侧边连 |     |
+| Ctrl+f | 向下滚动一屏         | 搜索            |     |
+| Ctrl+w | 删除光标前的一个单词 | 关闭标签页      |     |
+
+
+
+切换 Explorer 和 标签页: `ctrl+0` `ctrl+1`
+
+
+## 在 Explorer 窗口中使用类似于 vim 的快捷键
+
+```bash
+j/k         # 向下/上滚动
+zc/zm       # 折叠当前/全部
+/           # 搜索
+
+r           # 重命名
+x           # 剪切
+y           # 复制
+p           # 粘贴
+d           # 删除
+a/A         # 创建文件/文件夹
+```
